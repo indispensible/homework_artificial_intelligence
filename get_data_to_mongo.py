@@ -33,7 +33,7 @@ def find_data(tmp_url, tmp_district, lists):
     count = 0
     # 每个区的最大显示页数为100页
     for page_Num in range(1, 100):
-        f_url = tmp_url + tmp_district + "/d" + str(page_Num)
+        f_url = tmp_url + tmp_district + "/pg" + str(page_Num)
         print "第"+str(page_Num)+"页"
         print f_url
 
